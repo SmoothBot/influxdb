@@ -25,7 +25,7 @@ Deploy influxdb on railway
 ```
 
 2. Wait for Build & Deployment to Finish
-3. Setup your username & password in the Node-RED settings
+3. Open the custom URL an enter your credentials
 
 ## 🐳  Local Development
 
