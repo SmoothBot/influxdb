@@ -2,7 +2,7 @@
 
 Deploy influxdb on railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Voi0Ra?referralCode=2_sIT9)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/fwbafn?referralCode=2_sIT9)
 
 ## ✨ Features
 
