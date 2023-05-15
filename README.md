@@ -15,13 +15,13 @@ Deploy influxdb on railway together with node-red
 1. Click Deploy on Railway and setup your credentials in the environment variables
 
 ```bash
-    PORT=8086
-    DOCKER_INFLUXDB_INIT_MODE=setup
     DOCKER_INFLUXDB_INIT_USERNAME=yourusername
     DOCKER_INFLUXDB_INIT_PASSWORD=yourpassword
     DOCKER_INFLUXDB_INIT_ORG=yourorg
     DOCKER_INFLUXDB_INIT_BUCKET=yourbucket
     DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=yourtoken
+    DOCKER_INFLUXDB_INIT_MODE=setup # Don't change this
+    PORT=8086 # Don't change this
 ```
 
 2. Wait for Build & Deployment to Finish
