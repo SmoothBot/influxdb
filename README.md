@@ -1,13 +1,13 @@
-# InfluxDB for railway
+# InfluxDB for railway.app
 
-Deploy influxdb on railway together with node-red
+Deploy influxdb on railway
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Voi0Ra?referralCode=2_sIT9)
 
 ## ✨ Features
 
 * InfluxDB with automated setup
-* Node-RED
+* InfluxDB UI
 * Password Authentication (Set username & password in environment variables)
 
 ## 🐍 How to Deploy
@@ -33,4 +33,4 @@ Deploy influxdb on railway together with node-red
 docker compose up -d
 ```
 
-Connect to http://localhost:1880 and setup your username & password in the Node-RED settings for the local influxdb.
+Connect to http://localhost:8086 use setup username & password from docker-compose file to login to influxdb.
