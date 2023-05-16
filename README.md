@@ -29,10 +29,10 @@ Deploy influxdb on railway
 
 ## 👩‍💻 How to Use
 
-1. When you configure your InfluxDB connection, use your custom URL as the host but be aware that **the port is 443**!
+1. When you configure your InfluxDB connection, use your custom URL as the host but be aware that **the port is 443**! Example: `https://demo-influxdb.up.railway.app:443`.
 2. Use the token in the environment variables to authenticate
-3. Use the bucket name in the environment variables as the bucket name
-4. Use the organization name in the environment variables as the organization name
+3. Setup bucket name and organization name in the environment variables
+4. Use influxdb version 2.0 or above
 
 ## 🐳  Local Development
 
