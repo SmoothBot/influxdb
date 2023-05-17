@@ -7,19 +7,11 @@ services:
     restart: unless-stopped
     environment:
       - TZ=Europe/Amsterdam
-      - INFLUXDB_DB=regenfass
+      - INFLUXDB_DB=vergissberlin
       - INFLUXDB_ADMIN_USER=testadminuser
       - INFLUXDB_ADMIN_PASSWORD=testadminpassword
       - INFLUXDB_USER=testuser
-      - INFLUXDB_USER_PASSWORD=testpassword
     ports:
       - 8086:8086
     volumes:
       - ./data/influxdb:/var/lib/influxdb
-    networks:
-      - regenfass
-
-networks:
-  regenfass:
-    name: regenfass
-    driver: bridge
